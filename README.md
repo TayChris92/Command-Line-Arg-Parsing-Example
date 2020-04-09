@@ -1,12 +1,14 @@
 # UniManagement
 
+Application to parse command line arguments and create objects as well as define relationships between them.
+
 Command Instructions:
 Add classes by using the following command and syntax:
 -c "Course ID" "Course Name"
 Example:
 -c C01 Math
 
-You can add as many classes as you want as long as they don't conflict with each others courseIds and you use the -c prefix
+You can add as many coursesas you want as long as they don't conflict with each others courseIds and you use the -c prefix
 
 Adding and assigning Students to classes:
 -s "First Name" "Last Name" "CourseId" ...
@@ -20,9 +22,8 @@ Execution Instructions:
 
 In order to run:
 
-Command Line:
-
 Method 1
+Command Line:
 Runnable Jar:
 Locate UniManagement.jar and add your command as runtime arguments:
 java -jar UniManagement.jar <Commands Go Here>:
@@ -30,6 +31,7 @@ Example:
 java -jar UniManagement.jar -c C01 Math C02 History C03 Science -s Stevie Wonder C01 James Johnson C01 C02 Susie Williams C01 C02 C03
 
 Method 2:
+Command Line
 Running from compiled class:
 Locate build/classes/ folder and open in a Command Line terminal.
 Use the following command:
