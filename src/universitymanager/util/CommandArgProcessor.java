@@ -4,11 +4,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import universitymanager.Course;
+import universitymanager.MapTest;
 import universitymanager.Student;
 
 public class CommandArgProcessor {
 
     private String[] appArguments;
+
+    private Student[] students;
 
     private List<String> appArgumentList = new ArrayList<String>();
 
@@ -17,17 +20,30 @@ public class CommandArgProcessor {
     private HashMap<String, Course> resolvedCoursesMap = new HashMap<String, Course>();
 
     public CommandArgProcessor() {
+        String[] strings = new String[]{"String 1", "String 2", "String 3"};
+
+        for (int j = 0; j < 3; j++) {
+            System.out.println("String Name: " + strings[j]);
+        }
+
+        for(String abc : strings){
+            System.out.println("String Name Enhanced: " + abc);
+        }
+
+        MapTest map = new MapTest();
+
     }
 
-    public CommandArgProcessor(String[] args) {
+
+
+    public CommandArgProcessor(String... args) {
         appArguments = args;
         resolveClasses(args);
         resolveStudents(args);
     }
-
     private void resolveClasses(String[] args) {
         for (int i = 0; i < args.length - 1; i++) {
-            if (args[i].equals("-c")) {
+               if (args[i].equals("-c")) {
                 i++;
                 while (i <= args.length - 2) {
                     Course course = null;
