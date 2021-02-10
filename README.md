@@ -8,7 +8,7 @@ Add classes by using the following command and syntax:
 Example:
 -c C01 Math
 
-You can add as many coursesas you want as long as they don't conflict with each others courseIds and you use the -c prefix
+You can add as many courses as you want as long as they don't conflict with each others courseIDs and you use the -c prefix
 
 Adding and assigning Students to classes:
 -s "First Name" "Last Name" "CourseId" ...
