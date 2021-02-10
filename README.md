@@ -1,6 +1,7 @@
 # UniManagement
 
 Application to parse command line arguments and create objects as well as define relationships between them.
+I made this project as I challenge to myself to see if I could properly write my own functional commandline parser without relying on any external libraries/dependencies. I can say I definitely enjoyed this one but I could definitely make it better and will be updating it sometime in the near future.
 
 Command Instructions:
 Add classes by using the following command and syntax:
