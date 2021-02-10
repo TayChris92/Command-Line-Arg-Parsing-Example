@@ -18,6 +18,7 @@ Example:
 -s Stevie Wonder C01 C02 C03 Susie Johnson C01 C02
 
 Here is a preset list of commands you can use for testing:
+
 -c C01 Math C02 History C03 Science -s Stevie Wonder C01 James Johnson C01 C02 Susie Williams C01 C02 C03
 
 Execution Instructions:
