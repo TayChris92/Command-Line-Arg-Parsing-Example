@@ -1,4 +1,4 @@
-# UniManagement
+# Command Line Parsing Example
 
 Application to parse command line arguments and create objects as well as define relationships between them.
 
